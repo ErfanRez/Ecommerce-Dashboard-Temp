@@ -39,6 +39,7 @@ type SettingsFormValues = z.infer<typeof formSchema>;
 const SettingsForm: React.FC<SettingsFormProps> = ({ initialData }) => {
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
+
   const origin = useOrigin();
 
   const params = useParams();
