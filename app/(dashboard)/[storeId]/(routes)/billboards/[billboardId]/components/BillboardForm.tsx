@@ -23,8 +23,7 @@ import axios from "axios";
 import { useParams } from "next/navigation";
 import { useRouter } from "next/navigation";
 import { AlertModal } from "@/components/modals/alert-modal";
-import { ApiAlert } from "@/components/ui/ApiAlert";
-import { useOrigin } from "@/hooks/useOrigin";
+
 import ImageUpload from "@/components/ui/ImageUpload";
 
 const formSchema = z.object({
